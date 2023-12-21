@@ -581,7 +581,7 @@ const Chat = () => {
                         {!messages || messages.length < 1 ? (
                             <Stack className={styles.chatEmptyState}>
                                 <img
-                                    src={fuel-logo-black-en}
+                                    src={fuel}
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
